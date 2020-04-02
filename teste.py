@@ -16,5 +16,6 @@ class App:
         item = self.tree.identify('item',event.x,event.y)
         print("you clicked on", self.tree.item(item,"text"))
 
+
 if __name__ == "__main__":
     app = App()
